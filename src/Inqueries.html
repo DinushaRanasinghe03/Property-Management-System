@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>INQUIRIES</title>
+
+  <link rel="stylesheet" href="css/Inqueries.css" />
+  <link rel="stylesheet" href="css/style6.css"/>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+  </style>
+
+</head>
+
+  <div class="header">
+    <nav>
+         <img src="media/LAND MARK.png" class="logo">
+       <ul class="nav-links">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="#">Search Property</a></li>
+       <li><a href="#">Sell Property</a></li>
+       <li><a href="contact_us.html">Contact Us</a></li>
+          <li class="btn" href="#">Login</li>
+       <li class="btn2"><a href="Register.html"> Register </a></li>
+      
+       </ul>
+      
+    
+        <a href=" " target="_blank">
+       <img src="media/user.png" class="user-pic"></a>
+    </nav>
+
+  </div>
+
+   <body bgcolor="#A9C7C5">
+    <div>
+      <script>
+        function myFunction() {
+          alert("Sucuessfully saved.  Thanks for your Reply.")
+          var x = document.forms["form2"]["fname1"].value;
+      alert(x)
+      console.log('sdas',x)
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+        }
+      }
+      </script>
+      <br><br>
+      <center>
+        <h1 class="white letter">SEND YOUR INQUIRIES</h1>
+        <h2 class="white letter">Let us know how we can assist you to meet your recruitment needs. </h2><br><br>
+      </center>
+      <center>
+        <script>
+          function validateForm() {
+            // alert('ads')
+            var Name = document.forms["myForm"]["fname"].value;
+            var Subject = document.forms["myForm"]["subject"].value;
+            var message = document.forms["myForm"]["message"].value;
+
+            if (Name.length > 40) {
+              alert("Name must be less than 40");
+            }else {
+              alert('login scuess')
+            }
+          }
+          </script>
+        <div class="bcWork1">
+    
+          <form name="myForm" onsubmit="return validateForm()" method="post">
+    
+            <label class="white letter">Full Name</label><br>
+            <input type="text" name="fname1" id="fname" style="width:500px; height:27px" placeholder="Enter Full Name"
+              required>
+            <br><br>
+    
+    
+            <label class="white letter">Email Address</label><br>
+            <input type="text" name="email" id="email" style="width:500px; height:27px"
+              pattern="[a-zA-Z0-9#/%_.+-]+@[a-zA-Z]+\.[a-z]{2,3}" placeholder="user@gmail.com" required>
+            <br><br>
+    
+    
+            <label class="white letter">Subject</label><br>
+            <input type="text" name="subject" id="subject" style="width:500px; height:27px" placeholder="Enter the subject"
+              required>
+            <br><br>
+    
+    
+            <label class="white letter">Message</label><br>
+            <textarea name="message" id="message" rows="9" cols="9" style="width:500px"
+              placeholder="Enter Your Message Here" required></textarea>
+            <br><br>
+    
+    
+            <input type="submit" id="buttn1" name="buttn1" value="Send Message" style="width:500px; height:28px"
+              > <br><br><br>
+    
+          </form>
+      </center>
+    </div>
+    </body>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Search Property</a></li>
+              <li><a href="#">Sell Property</a></li><BR>
+              <li><a>©Copyrigt LandMark.com 2023</a></li>
+           <li><a>All Right Reserved</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+             <li><a href="about_us.html">About Us</a></li>
+  	 		<li><a href="Privacy_Policy.html">privacy policy</a></li>
+  	 		<li><a href="terms_&_conditions.html">Terms & Conditions</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+            <li><a href="#">📍121,Kandy Road,Malabe.</li>
+              <li><a href="#">📧 landmark@gmail.com</li>
+              <li><a href="#">✆ 077 2425678</li>
+              <li><a href="#">☏ 011 2425987</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+</html>

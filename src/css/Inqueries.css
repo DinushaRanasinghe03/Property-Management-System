@@ -1,0 +1,22 @@
+@charset "utf-8";
+.white-letter{
+	color:white;
+}	
+
+	#buttn1
+{
+	font-weight:bold;
+	font-size:16px;
+	font-family:sans-serif;
+	color:white;
+	background-color:orange;
+	border:1px solid black;
+}
+
+.bcWork1
+{
+	background-color: rgba(60, 60, 60, 0.358);
+	margin: 0px 80px 50px 80px;
+	padding-top: 20px;
+	border-radius: 10px;
+}
